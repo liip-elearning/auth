@@ -1,7 +1,5 @@
 <?php
 
-$string['auth_saml_loginusing'] = 'Accede usando tu nombre de usuario y contraseña';
-
 $string['auth_samltitle']  = 'Autenticación SAML';
 $string['auth_samldescription'] = 'Autenticación SSO usando SimpleSAML';
 
@@ -49,12 +47,6 @@ $string['auth_saml_ignoreinactivecourses'] = 'Ignorar Cursos Inactivos';
 $string['auth_saml_ignoreinactivecourses_description'] = "Si no está activado el plugin dará de baja a los cursos 'inactivos'";
 
 $string['auth_saml_not_authorize'] = "{\$a} no tiene activo ningún curso del Campus Andaluz Virtual";
-
-$string['auth_saml_jit_not_active'] = "La cuenta {\$a} no existe y la provisión automática de usuarios está desabilitada";
-
-$string['auth_saml_disablejit'] = "Provisiomiento automático";
-$string['auth_saml_disablejit_description'] = "Marcalo para desabilitar el 'just-in-time provisioning', en cuyo caso las cuentas no serán creadas automáticamente";
-
 
 $string['auth_saml_error_executing'] = "Error al ejecutar ";
 
